@@ -1,7 +1,7 @@
 """Rebuild perks-update.json for the perk picker.
 
 The perk tables on deadbydaylight.wiki.gg are rendered by a Lua module, so the
-only machine-readable form of them is the rendered HTML: slice the page at the
+only machine-readable form is the rendered HTML: slice the page at the
 Survivor_Perks / Killer_Perks / History anchors, then read one <tr> per perk
 (two <th> cells - icon, name - and one <td> cell, the description).
 
